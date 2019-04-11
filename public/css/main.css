@@ -1,0 +1,80 @@
+html{
+  height: 100%;
+}
+body {
+  background-image: url("/img/pic.jpg");
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.container{
+ padding-top: 2% !important;
+ padding-bottom:2% !important ;
+ padding-right: 5% !important;
+ padding-left: 5% !important;
+ margin-top:3% !important;
+ margin-bottom: 3% !important;
+ background: rgba(255, 255, 255, 0.822) !important;
+ border-radius: 7px !important;
+ width: 50%;
+}
+@media (max-width :800px){
+  .container{
+    width: 80%;
+  }
+}
+
+
+.top{
+  text-align: center;
+}
+
+h3{
+  font-family: 'Righteous', cursive;
+}
+
+.material-icons{
+  color: #17a2b8
+}
+
+.input-field input:focus + label, .input-field textarea:focus + label {
+  color: #b8172c !important;
+}
+
+
+
+.input-field input:focus, .input-field textarea:focus {
+  border-bottom: 1px solid#b8172c !important;
+  box-shadow: 0 1px 0 0 #b8172c !important;
+}
+
+ .active{
+  color:#b8172c !important;
+}
+
+button{
+  color:black !important; 
+  background-color: #17a2b8 !important;
+  margin-left: 40% !important;
+  margin-right: 40% !important;
+}
+button i{
+  color: black !important;
+}
+
+a{
+text-decoration: none;
+color: black;
+size: 1vh;
+}
+p{
+  font-size: 5vh;
+  font-family: 'Righteous', cursive;
+}
+.don{
+  text-align: center;
+  size: 2vh;
+  margin-top: 20% !important;
+}
+

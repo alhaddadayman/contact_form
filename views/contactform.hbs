@@ -1,0 +1,46 @@
+<!--Form with header-->
+<div class="container ">
+    <div class="">
+        <div class="top">
+            <i class="large material-icons prefix">email</i>
+            <h4>Send me a Message</h4>
+        </div>
+    </div>
+    <form class="col s12" action="/sendEmail" method="POST">
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix bluue-grey ">account_circle </i>
+                <input id="icon_prefix" type="text" name="username" required="">
+                <label for="icon_prefix">Name</label>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix icon-blue">title</i>
+                <input id="icon_title" type="text" name="subject" required="">
+                <label for="icon_title">Title</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="icon_email" type="text" name="email" required="">
+                <label for="icon_email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">textsms
+                </i>
+                <textarea id="textarea1" name="message" class="materialize-textarea" required=""></textarea>
+                <label for="icon_textsms">Text</label>
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                <i class="material-icons right ">send</i>
+            </button>
+        </div>
+    </form>
+</div>

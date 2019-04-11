@@ -1,0 +1,19 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9"
+  }
+}
